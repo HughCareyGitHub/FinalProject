@@ -140,8 +140,10 @@ STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 # Sending emails with Django
-EMAIL_HOST: 'smtp.gmail.com'
-EMAIL_HOST_USER: 'finalprojectHC12345@gmail.com'
-EMAIL_HOST_PASSWORD: 'finalprojectHC123%'
-EMAIL_PORT: 587
-EMAIL_USE_TLS: True
+# instead of using an SMTP server we will tell Django to write emails to the console
+EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
+# EMAIL_HOST: 'smtp.gmail.com'
+# EMAIL_HOST_USER: 'finalprojectHC12345@gmail.com'
+# EMAIL_HOST_PASSWORD: 'finalprojectHC123%'
+# EMAIL_PORT: 587
+# EMAIL_USE_TLS: True
