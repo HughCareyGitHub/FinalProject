@@ -67,13 +67,39 @@ Share the post            When click Share this Post              Clicked Share 
 
 **Deployment**
 
+The site was deployed to Heroku-down menu. The steps are as follows:
+1. Create an account and login to Heroku
+2. Click Create an app
+3. Choose a name for your app and make sure it is visible
+4. Click Create App
+5. Click Resources
+6. Search for postgres in the search box and click on heroku postgres.
+7. Select the free/hobby dev option and click provision.
+8. Make sure you save your new postgres DB URL as you will need this to connect to your database locally.
+9. In the workspace terminal run "python3 manage.py dumpdata --exclude auth.permission --exclude contenttypes > db.json" to backup your local database  to a db.json file
+10. Install dj_database_url and psycopg2 by using the following commands in the terminal: "pip3 install dj_database_url" and "pip3 install psycopg2"
+11. Add your own new database url settings to settings.py being careful not to commit any changes that may leave your database url exposed in the version control
+12. Migrate your db settings using the following command "python3 manage.py migrate"
+13. Load your fixtures that you exported previously into your postgres db with the following command: "python3 manage.py loaddata db.json"
+14. Create a new superuser with the following command: "python3 manage.py createsuperuser"
+15. Install the gunicorn web server with the following command: "pip3 install gunicorn"
+16. Save a list of all the required installed plugins by using "pip3 freeze > requirements.txt"
+17. Create a Procfile to tell Heroku what kind of app you are deploying by using "echo web: gunicorn your_app_name.wsgi:application > Procfile"
+18. Go to your Heroku dashboard and click on your app and then click the deploy tab
+19. Connect your github repo in the deployment method section and click connect
+20. Enable automatic deployment under the ustomatic deploys section
+21. Click the settings tab
+22. Click the reveal config vars
+23. Add your environment variables such as SECRET_KEY 
 
 **Citation of sources**
+
 
 
 **Future Features**
 
 
 **Q&A**
+
 
 **Summary**
