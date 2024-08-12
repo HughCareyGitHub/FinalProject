@@ -94,7 +94,18 @@ The site was deployed to Heroku-down menu. The steps are as follows:
 
 **Citation of sources**
 
+**Credits**
+
 Got the idea from the blog section in the LMS but was struggling to understabd how all the different bits ot the MVT all fit in together so rather trying to abstract or expand on the basics I thought would be valuable to try recreate something similar to reinforce what I had learned in the LMS.
+
+**Content**
+
+I used the code institute LMS as my learning guide to how all the elements of the MVT worked together when constructing my models
+
+**Media**
+
+- The Arsenal logo was taken from https://worldvectorlogo.com/logo/arsenal
+- The favicon was taken from https://icon-icons.com/icon/arsenal/17024
 
 **Future Features**
 
