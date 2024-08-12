@@ -65,3 +65,15 @@ Posts list                When click the title post detail opens  Clicked post t
 Comments                  When click ADD COMMENT                  Clicked the ADD COMMENT            Commnent successsfully added        
 Share the post            When click Share this Post              Clicked Share this Post            Post successfully shared
 
+**Deployment**
+
+
+**Citation of sources**
+
+
+**Future Features**
+
+
+**Q&A**
+
+**Summary**
