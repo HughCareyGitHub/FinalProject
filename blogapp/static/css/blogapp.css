@@ -10,7 +10,8 @@ a {
 }
 
 h1 { 
-    font-weight:normal;
+    color:red;
+    font-weight:bold;
     border-bottom:1px solid #bbb;
     padding:0 0 10px 0;
 }
