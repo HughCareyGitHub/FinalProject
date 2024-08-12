@@ -94,10 +94,11 @@ The site was deployed to Heroku-down menu. The steps are as follows:
 
 **Citation of sources**
 
-
+Got the idea from the blog section in the LMS but was struggling to understabd how all the different bits ot the MVT all fit in together so rather trying to abstract or expand on the basics I thought would be valuable to try recreate something similar to reinforce what I had learned in the LMS.
 
 **Future Features**
 
+I had played around with adding tags in the blog but ran into trouble. I referred to coding coach and tutor but there was nothing obvious wrong in my code and as the error description wasnt helping I just stripped the feature out and left the basic functionality (posts with comments) instead.
 
 **Q&A**
 
