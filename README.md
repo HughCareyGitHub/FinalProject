@@ -14,7 +14,15 @@ In the homepage there is a list of all the blogs sorted by post submit date. The
 
 When they click on the title of any of the posts they can read that post. They can then add a comment or return to the home page.
 
+Return to Home page:
 ![image](https://github.com/user-attachments/assets/888773cf-92f8-4184-8691-8403620648b2)
+
+Add a comment to a blog post:
+![image](https://github.com/user-attachments/assets/c4b78515-6481-4d40-8ed3-1e87e7bacbea)
+
+Share a Post:
+![image](https://github.com/user-attachments/assets/7d990282-bf1f-4c0e-b74e-eeecf43754ff)
+
 
 **UX**
 
