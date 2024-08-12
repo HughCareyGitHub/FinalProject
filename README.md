@@ -36,7 +36,10 @@ As a blog user:
 
 **Wireframes**
 
-To see all wireframes created in the UX stage Click Here!
+To see all wireframes created in the UX stage
+![blog_wireframe](https://github.com/user-attachments/assets/71b5a7c6-93db-47d2-b453-6e68c1429815)
+
+
 
 **Testing**
 
