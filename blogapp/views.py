@@ -7,7 +7,8 @@ from .models import Post, Comment
 from .forms import EmailPostForm, CommentForm
 
 def post_list(request):
-    object_list = Post.published.all()
+    object_list = Post.objects.order_by('publish')
+ #   object_list = Post.published.all()
 
     paginator = Paginator(object_list, 3) # 3 posts in each page
     page = request.GET.get('page')

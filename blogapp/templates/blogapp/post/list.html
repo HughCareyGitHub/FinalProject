@@ -1,9 +1,9 @@
 {% extends "blogapp/base.html" %}
 
-{% block title %}My Blog{% endblock %}
+{% block title %}Hugh's Arsenal Blog{% endblock %}
 
 {% block content %}
-    <h1>My Blog</h1>
+    <h1>Hugh's Arsenal Blog</h1>
     {% for post in posts %}
         <h2>
             <a href="{{ post.get_absolute_url }}">
