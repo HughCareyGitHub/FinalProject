@@ -48,16 +48,48 @@ As a blog user:
 To see all wireframes created in the UX stage
 ![blog_wireframe](https://github.com/user-attachments/assets/71b5a7c6-93db-47d2-b453-6e68c1429815)
 
+**Agile Development**
+
+For the development of Hughs Arsenal Blog, I adopted an Agile methodology to ensure iterative and efficient progress throughout the project lifecycle. Central to this approach was the utilization of a Kanban board hosted on GitHub Projects. You can view the project board in GitHub.
+
+**Kanban Board Overview**
+
+The Kanban board served as a visual representation of the project's progress and allowed for effective task management. It consisted of the following sections:
+
+Backlog: This section contained all the tasks and user stories that were yet to be prioritized for implementation.
+Ready: Tasks and user stories ready for development were moved to this column.
+In Progress: Work in progress was tracked here, indicating tasks actively being worked on.
+In Review: Upon completion, tasks were moved here for review before being marked as done.
+Done: Tasks that were completed successfully were moved to this column.
+Future Features: Ideas and tasks earmarked for future development were kept in this section for consideration in subsequent iterations.
+
+**User Stories Integration**
+
+User stories played a pivotal role in shaping the development process, ensuring that features were aligned with user needs. These user stories were mapped onto the Kanban board, guiding the prioritization and implementation of tasks.
+
+**Task Management**
+
+In addition to tracking user stories, the Kanban board served as a comprehensive task list. I utilized it to break down user stories into smaller, actionable tasks, ensuring clear and manageable objectives for development. This granular approach facilitated efficient progress tracking and enhanced team collaboration.
+
+By leveraging Agile principles and utilizing the Kanban board effectively, the development of Sojourn Scribbles remained focused, adaptable, and responsive to evolving requirements, resulting in a more robust and user-centric Django blog application.
+
 **Testing**
 
 I added some posts and comments to make sure that all the site functionality is working as planned. I also shared some posts to verift that the share this post functionality is working.
+I used the dev tools on chrome to test the website for responsiveness. I captured screenshots to demonstrate responsive design across mobile, tablet and laptop based on the size configurations preset in dev tools.
 
 **Validator Testing**
 
 * HTML
-No errors were returned when passing through the official W3C validator
+
+I used the W3 HTML Validator to check the HTML on each of my site pages by Direct Input. I have resolved the necessary errors.
+
 * CSS
 No errors were found when passing through the (Jigsaw) validator
+
+* Python
+  
+I used the CI Python Linter to check all my python scripts. 
 
 **Unfixed Bugs**
 
