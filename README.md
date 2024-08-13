@@ -2,17 +2,17 @@
 
 **Hughs Arsenal Blog**
 
-This website is a simple beginner level blog. Users can write posts which when submitted other users can add comments.
+This website is a simple beginner level blog. Users can read posts which the site owner submits and then call can add comments. It is intended for Arsemal fans that want to be kept up to date with the latest team gossip/ news.
 
 ![image](https://github.com/user-attachments/assets/f2a769fc-ac24-49d7-b6fe-50c5e1581dbe)
 
 **Features**
 
-In the homepage there is a list of all the blogs sorted by post submit date. The user can navigate through the site using the Previous and Next button at end of page. 
+In the homepage there is a list of all the blog posts sorted by post submit date. The user can navigate through the site using the Previous and Next button at end of page. 
 
 ![image](https://github.com/user-attachments/assets/f6e41334-b76c-4dfc-9850-fb3dd92e004a)
 
-When they click on the title of any of the posts they can read that post. They can then add a comment or return to the home page.
+When they click on the title of any of the posts they can read that post. They can then add a comment or return to the home page. They can also share this post with a friend by submitting their friends email address.
 
 Return to Home page:
 ![image](https://github.com/user-attachments/assets/888773cf-92f8-4184-8691-8403620648b2)
@@ -34,8 +34,9 @@ The goal of the site is to give the user information on Arsenal FC insluding the
 
 As a blog user:
 
-* I want to be able to read the other blog posts
-* I want to be able to add comments to other posts
+* I want to be able to read blog posts
+* I want to be able to share chosen posts with friends
+* I want to be able to add comments to the posts
 
   As a site administrator:
 
@@ -47,11 +48,9 @@ As a blog user:
 To see all wireframes created in the UX stage
 ![blog_wireframe](https://github.com/user-attachments/assets/71b5a7c6-93db-47d2-b453-6e68c1429815)
 
-
-
 **Testing**
 
-I added some posts and comments to make sure that all the site functionality is working as planned.
+I added some posts and comments to make sure that all the site functionality is working as planned. I also shared some posts to verift that the share this post functionality is working.
 
 **Validator Testing**
 
