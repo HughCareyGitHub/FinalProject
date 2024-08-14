@@ -6,6 +6,17 @@ This website is a simple beginner level blog. Users can read posts which the sit
 
 ![image](https://github.com/user-attachments/assets/f2a769fc-ac24-49d7-b6fe-50c5e1581dbe)
 
+**Locations**
+
+GitHub repo
+https://github.com/HughCareyGitHub/FinalProject/
+
+CI Database Maker
+https://dbs.ci-dbs.net/manage/COejLfuyvbphRiIi/
+
+Heroku deployment
+https://dashboard.heroku.com/apps/final-project-hc
+
 **Features**
 
 In the homepage there is a list of all the blog posts sorted by post submit date. The user can navigate through the site using the Previous and Next button at end of page. 
